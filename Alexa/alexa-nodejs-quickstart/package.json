@@ -1,0 +1,23 @@
+{
+  "name": "alexa-nodejs-quickstart",
+  "version": "1.0.0",
+  "description": "A quick start guide to building alexa apps with nodejs sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "alexa",
+    "alexa-nodejs"
+  ],
+  "author": "Girish Jammu",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4"
+  },
+  "devDependencies": {
+    "aws-lambda-mock-context": "^3.1.1"
+  }
+}
